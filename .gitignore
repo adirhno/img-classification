@@ -5,6 +5,8 @@ env/
 env.bak/
 venv.bak/
 
+.DS_Store
+
 __pycache__/
 
 build/
