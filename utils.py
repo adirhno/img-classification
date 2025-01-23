@@ -32,6 +32,7 @@ def upload_images_to_minio(client, image_folder, bucket_name):
         folder_name = "sunglasses" 
         
         object_name = f"{folder_name}/{filename}"
+        
         try:
             # Upload the file to MinIO
             with open(file_path, "rb") as file_data:
