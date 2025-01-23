@@ -1,0 +1,14 @@
+tf-env/
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+__pycache__/
+
+build/
+dist/
+*.egg-info/
+
+.env
